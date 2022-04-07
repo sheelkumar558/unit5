@@ -1,11 +1,12 @@
 import "./App.css";
 
 function App() {
-  const food = "pizza";
-  const age = 21;
-  const skills = ["mern", "node", "dsa", "design", "animation"];
-  return (
+  // const food = "pizza";
+  // const age = 21;
+  // const skills = ["mern", "node", "dsa", "design", "animation"];
+   return (
     <div className="">
+       <Navbar />
       {/* I am eating the {food} and i am {age} years old.
       <div>You are {age > 18 ? "Eligible" : "Not eligible"} for licence</div>
       <div>
@@ -17,6 +18,7 @@ function App() {
         </ul>
       </div>
       <Skill /> */}
+     
       <Mobile />
       <MM />
     </div>
@@ -26,6 +28,22 @@ function App() {
 // function Skill(){
 //   return <p className="redtext">Skill: React</p>
 // }
+
+function Navbar(){
+return  (  <div className="nav">
+       <Logo />
+       
+  </div>
+  );
+}
+
+function Logo(){
+  return(
+    <h1 className="logo">LOGOBAKERY</h1>
+    
+  );
+}
+
 
 function Mobile(){
   const mos = ["Android","Bleckberry","iPhone","Windows Phone"];

@@ -4,3 +4,25 @@
 .redtext{
   color: tomato;
 }
+
+.nav{
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  background-color: blue;
+  text-align: center;
+}
+.logo{
+  text-align: left;
+  margin: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+.link{
+  text-align: center;
+ 
+}
+.a{
+  margin: 10px;
+  text-align: center;
+}
