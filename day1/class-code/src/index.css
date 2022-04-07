@@ -1,3 +1,8 @@
 .redtext{
     color: tomato;
+    font-size: 40px;
+}
+
+.border{
+    border: 2px solid red;
 }
