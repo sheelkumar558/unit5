@@ -1,0 +1,18 @@
+.App{
+  text-align: center;
+}
+
+.odd{
+  color: red;
+}
+.even{
+  color: green;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  width: 80px;
+}
