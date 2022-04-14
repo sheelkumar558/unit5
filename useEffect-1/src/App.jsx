@@ -9,14 +9,14 @@ function App() {
 
   return (
     <div className="App">
-      < Timer />
+      {/* < Timer /> */}
       {/* < Counter/> */}
-      {/* {show ? <Counter /> :null} */}
-      {/* {show ? <Todos /> :null}
+      {/* {show ? <Counter /> :null}  */}
+      { show ? <Todos /> :null}
       <button onClick={()=>{
         setShow(!show);
       }}>Todos</button>
-       {show ? "Hide" : "Show"} */}
+       {show ? "Hide" : "Show"} 
     </div>
   );
 }

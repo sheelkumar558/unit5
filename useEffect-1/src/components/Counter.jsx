@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export const Counter = () => {
-  const [count, setCount] = useState(20);
+  const [count, setCount] = useState(120);
     useEffect(() => {
      let id= setInterval(() => {
         setCount((prevValue)=>{

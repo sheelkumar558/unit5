@@ -1,11 +1,8 @@
-//import logo from './logo.svg';
 import './App.css';
-
+import {TodoList} from "./components/Todolist"
 function App() {
   return (
-    <div className="App">
-       hello world
-    </div>
+    <TodoList />
   );
 }
 

@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.flex{
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  width: 30%;
+  margin: 2%;
+  justify-content: space-between;
+}
+
+h4{
+  color:green
+}
