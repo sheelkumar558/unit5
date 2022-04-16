@@ -49,7 +49,7 @@ export const StopWatch = () => {
   return (
     <div>
       <h1>Stop-Watch</h1>
-      <p>min : sec : </p>
+      <p>min : sec : millSec</p>
       <h3>
       {  hou < 10 ? "0" + hou : hou}:{  min < 10 ? "0" + min : min}:{sec < 10 ? "0" + sec : sec}
       </h3>
