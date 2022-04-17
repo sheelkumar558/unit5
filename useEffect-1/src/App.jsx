@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { Counter } from "./components/Counter";
+import { Food } from "./components/Food";
 import { Timer } from "./components/Timer";
 import { Todos } from "./components/Todos";
 
@@ -8,15 +9,17 @@ function App() {
   const [show, setShow] = useState();
 
   return (
-    <div className="App">
+
+    <div className="">
+      <Food />
       {/* < Timer /> */}
       {/* < Counter/> */}
       {/* {show ? <Counter /> :null}  */}
-      { show ? <Todos /> :null}
+      {/* { show ? <Todos /> :null}
       <button onClick={()=>{
         setShow(!show);
       }}>Todos</button>
-       {show ? "Hide" : "Show"} 
+       {show ? "Hide" : "Show"}  */}
     </div>
   );
 }

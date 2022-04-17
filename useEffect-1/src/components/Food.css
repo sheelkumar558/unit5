@@ -1,0 +1,13 @@
+div{
+   width: 100%;
+   margin: auto;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+div > .main{
+    width: 22%;
+}
+img{
+    width: 200px; 
+}
