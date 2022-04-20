@@ -23,8 +23,9 @@ function App() {
 
 // console.log("x:",ref);
   return <div className="App">
-    {/* <Form /> */}
-    <StopWatch />
+    <Form />
+    
+    {/* <StopWatch /> */}
     {/* <h1 ref={divRef}>Counter:{count}</h1>
     <button onClick={()=>{
       clearInterval(countRf.current);

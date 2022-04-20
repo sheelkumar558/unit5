@@ -17,14 +17,14 @@ export const Form = () => {
       [id]: value,
     });
   };
-  const name = useRef(null);
-  const handleSubmit = (e) => {
+
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    // fetch("http://localhost:8000/profile",{
-    //   method:"POST",
-    //   body: JSON.stringify(formData),
-    // });
-    console.log(name.current.value);
+  const data=await  fetch("http://localhost:9090/profile",{
+      method:"POST",
+      body: JSON.stringify(formData),
+    });
+    console.log(data);
   };
   return (
     <div>
@@ -37,7 +37,7 @@ export const Form = () => {
             type="text"
             placeholder="Enter userName"
             id="username"
-            ref={name}
+         
           />
         </ol>
         <ol>
@@ -70,7 +70,7 @@ export const Form = () => {
         ></textarea>
         <input type="Submit" value="submit" />
       </form>
-      <h1>{name.current.value}</h1>
+     
     </div>
   );
 };
