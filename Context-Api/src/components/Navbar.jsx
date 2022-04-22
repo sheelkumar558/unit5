@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { CartContext } from "../contexts/CartContext";
-import { LangContext } from "../contexts/languageContexts";
+
 export const Navbar = ()=>{
     const {cart }= useContext(CartContext);
-    //const {lang} = useContext(LangContext);
+   // const {lang} = useContext(LangContext);
     return ( 
         <nav style={{
             display:"flex",
